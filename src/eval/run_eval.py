@@ -27,7 +27,7 @@ def load_conversations(path: Path) -> List[dict]:
 # ─── main -------------------------------------------------------------- #
 def main(model_slug: str):
     # 1) OpenRouter client
-    api_key = ""
+    api_key = "AIzaSyClOEA-H5CxLOooOf-OR2UUJFfK8Jb53ws"
     if not api_key:
         raise RuntimeError("Set Google_API_Key in your env.")
     client = OpenAI(

@@ -16,7 +16,7 @@ ROOT        = Path(__file__).resolve().parents[2]
 CONFIG_DIR  = ROOT / "configs"
 DATA_DIR    = ROOT / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
-OUTFILE     = DATA_DIR / "conversations_2.jsonl"
+OUTFILE     = DATA_DIR / "conversations.jsonl"
 
 # ────────────────────────── helpers ───────────────────────────────────
 def load_specs():
